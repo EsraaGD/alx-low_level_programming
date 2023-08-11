@@ -10,11 +10,10 @@ Return: everytime 0 (Success)
 int main(void)
 {
 	int a;
-	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	a=n%10;
+	a = n % 10;
 
 	if (a > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, a);
