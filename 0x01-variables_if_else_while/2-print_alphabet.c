@@ -5,14 +5,14 @@
  * Return: eachtime 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	char f;
 	f = 'a';
 
-	for(f = 'a' ; f <= 'z' ; f++) {
-		putchar(f);
-	}
+	for(f = 'a' ; f <= 'z' ; f++) 
+	
+		putchar (f);
 
 	return (0);
 }
