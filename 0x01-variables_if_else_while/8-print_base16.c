@@ -13,7 +13,6 @@ int main(void)
 	{
 		putchar(y + '0');
 	}
-	
 	char z = 'a';
 	while (z <= 'f')
 	{
