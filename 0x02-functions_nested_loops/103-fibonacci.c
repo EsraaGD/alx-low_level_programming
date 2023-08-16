@@ -11,6 +11,7 @@ int main(void)
 {
 	int v;
 	unsigned long int w, x, next, sum;
+
 	w = 1;
 	x = 2;
 	sum = 0;
