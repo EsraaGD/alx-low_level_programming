@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints all natural numbers from n to 98
- * @n: Number to print from
+ * print_to_98 - prints all natural numbers from a to 98
+ * @a: Number to print from
  * Return: eachtime 0 (Success)
  */
 
