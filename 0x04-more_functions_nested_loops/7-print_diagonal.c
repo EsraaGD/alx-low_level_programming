@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draws a diagonal line
- * @n: Number of times
+ * @c: Number of times
  * Return: 0
  */
 
