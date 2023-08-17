@@ -8,6 +8,7 @@
 void print_numbers(void)
 {
 	char q;
+
 	for (q = '0'; q <= '9'; q++)
 	{
 		_putchar(q);
