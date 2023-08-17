@@ -21,7 +21,7 @@ int main(void)
 					putchar(hundreds);
 					putchar(tens);
 					putchar(ones);
-					if (hundreds != '9' || tens != '8')
+					if (ones+tens+hundreds != 24)
 					{
 						putchar(',');
 						putchar(' ');
