@@ -7,7 +7,7 @@
  * Return: eachtime 0 (success)
  */
 
-int mul(int u, int v);
+int mul(int u, int v)
 
 {
 	int answer = u * v;
