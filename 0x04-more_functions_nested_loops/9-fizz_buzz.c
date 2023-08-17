@@ -24,10 +24,11 @@ int main(void)
 		else if (q % 5 == 0)
 			printf("Buzz");
 		else
-			printf('%q', q);
+			printf("%d", q);
 		if (q < 100)
 			printf(" ");
 	}
 	printf("\n");
+
 	return (0);
 }
