@@ -6,12 +6,12 @@
  * Return: string
  */
 
-void _puts(char *str)
+void _puts(char *stg)
 
 {
-	while (*str != '\0')
+	while (*stg != '\0')
 	{
-		_putchar(*str++);
+		_putchar(*stg++);
 	}
 		_putchar('\n');
 }
