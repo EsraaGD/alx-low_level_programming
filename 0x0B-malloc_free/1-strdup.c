@@ -3,8 +3,7 @@
 
 /**
  * *_strdup - returns a pointer to a newly allocated space in memory,
- * which contains a copy of the string given as a parameter.
- * @h: input
+ * which contains a copy of the string given as a parameter
  * @str: string
  * Return: 0
  */
@@ -13,7 +12,7 @@ char *_strdup(char *str)
 
 {
 	size_t h, g;
-	char *strd;
+	char *strdwow;
 
 	if (str == NULL)
 	{
@@ -26,16 +25,16 @@ char *_strdup(char *str)
 		h++;
 	}
 
-	strd = malloc(sizeof(char) * (h + 1));
+	strdwow = (char *) malloc(sizeof(char) * (h + 1));
 
-	if (strd == NULL)
+	if (strdwow == NULL)
 	{
 		return (NULL);
 	}
 
-	for (g = 0; g >=  h; g++)
+	for (g = 0; g <= h; g++)
 	{
-		strd[g] = str[g];
+		strdwow[g] = str[g];
 	}
-	return (strd);
+	return (strdwow);
 }
