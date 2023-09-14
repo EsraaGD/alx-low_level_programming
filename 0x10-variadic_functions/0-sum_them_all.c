@@ -18,7 +18,7 @@ int sum_them_all(const unsigned int n, ...)
 	if (n == 0)
 		return (0);
 
-	va_start (valists, n);
+	va_start(valists, n);
 
 	for (qr = 0; qr < n; qr++)
 		sum += va_arg(valists, unsigned int);
