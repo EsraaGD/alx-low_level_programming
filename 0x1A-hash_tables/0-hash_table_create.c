@@ -20,8 +20,8 @@ hash_table_t *hash_table_create(unsigned long int size)
     if (htc->array == NULL)
         return (NULL);
 
-    for (int i = 0; i < size; i++)
-        htc->array[h] = NULL;
+    for (unsigned long int i = 0; i < size; i++)
+        htc->array[i] = NULL;
 
     return (htc);
 }
