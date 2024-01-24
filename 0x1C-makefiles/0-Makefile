@@ -1,6 +1,3 @@
-CC = gcc
-CFLAGS = -Wall -02
-
 all: school
 
 school: main.c school.c m.h
