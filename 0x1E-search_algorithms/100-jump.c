@@ -10,20 +10,6 @@
  */
 
 int jump_search(int *array, size_t size, int value)
-#include "search_algos.h"
-#include <math.h>
-
-/**
- * jump_search - Searches for a value in a sorted
- * array using Jump search algorithm.
- *
- * @array: Pointer to the first element of the array.
- * @size: Number of elements in the array.
- * @value: Value to search for in the array.
- *
- * Return: Index of the value in the array, or -1 if not found.
- */
-int jump_search(int *array, size_t size, int value)
 {
 	int step = sqrt(size), start = 0, end = start + step, i;
 
